@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<meta charset = "UTF-8"/>
+		<title>AkenoML/KylluaSama</title>
+
+		<script src="https://kit.fontawesome.com/245eae4153.js" crossorigin="anonymous"></script>
+
+		<link rel = "stylesheet" href="css/Principal.css">
+        <link rel="stylesheet" href="css/blog.css">
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, 
+		maximum-scale=1.0, minimum-scale=1.0">
+	</head>
+	<body>
+		<!------------Cabezera------------->
+		<header>
+			<div class = "header-content">
+				
+				<div class = "logo">
+				
+					<h1>Akeno/Kyllua<b>Sama</b><h1>
+					
+				</div>
+				
+				<div class = "menu" id="show-menu">
+				
+					<nav>
+						<ul>
+							<li><a href = "#"><i class="fa-solid fa-house-chimney"></i>Inicio</a></li>
+							<li><a href = "#"><i class="fa-solid fa-circle-play"></i>Videos</a></li>
+							<li class = "menu-selected"><a href = "#" class = "text-menu-selected"><i class="fa-solid fa-book"></i>Blog</a></li>
+							<li><a href = "#"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+						</ul>
+					</nav>
+				
+				</div>
+
+                <div id="ctn-icon-search">
+                    <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+                </div>
+			</div>
+
+			<div id="icon-menu">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+
+		</header>
+
+        <div id="ctn-bar-search">
+            <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
+        </div>
+
+        <ul id="box-search">
+            <li><a href="MLBB.html"><i class="fa-solid fa-magnifying-glass">MLBB</i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass">Akeno</i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass">Jugemos Pokemon :3</i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass">Minecraft</i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass">el mundo de KylluaSama</i></a></li>
+        </ul>
+
+        <div id="cover-ctn-search"></div>
+		<!----------Portada--------->
+
+		<div class="container-all" id="move-content">
+
+			<div class = "blog-container-cover">
+
+				<div class = "container-info-cover">
+					<h1>Encuentra tu tema de interes</h1>
+					<p>Dos personajes en un solo mundo :3</p>
+				</div>
+			</div>
+            
+            <div class="container-post">
+
+                <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+                <input type="radio" id="MLBB" name="categories" value="MLBB">
+                <input type="radio" id="Pokemon" name="categories" value="Pokemon">
+                <input type="radio" id="Minecraft" name="categories" value="Minecraft">
+                <input type="radio" id="Akeno" name="categories" value="Akeno">
+                <input type="radio" id="KylluaSama" name="categories" value="KylluaSama">
+                <input type="radio" id="Videos" name="categories" value="Videos">
+                <input type="radio" id="Diseño-web" name="categories" value="Diseño-web">
+
+                <div class="container-category">
+                    <label for="TODOS">TODOS</label>
+                    <label for="MLBB">MLBB</label>
+                    <label for="Pokemon">Pokemon</label>
+                    <label for="Minecraft">Minecraft</label>
+                    <label for="Akeno">Akeno</label>
+                    <label for="KylluaSama">KylluaSama</label>
+                    <label for="Videos">Videos</label>
+                    <label for="Diseño-web">Diseño web</label>
+                </div>
+
+                <div class="posts">
+
+                    <div class="post" data-category="MLBB">
+
+                        <div class="ctn-img">
+                            <img src="img/mobilelengeds.jpg" alt="">
+                        </div>
+                        <h2>Mobile Legends Bang Bang</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>Akeno</li>
+                            <li>MLBB</li>
+                            <li>Juegos</li>
+                        </ul>
+                        <a href="MLBB.html"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="Pokemon">
+
+                        <div class="ctn-img">
+                            <img src="img/pokemonlogo.jpg" alt="">
+                        </div>
+                        <h2>PokeMMO - un Pokemon multijugador 🤭</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>KylluaSama</li>
+                            <li>Pokemon</li>
+                            <li>Juegos</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="Minecraft">
+
+                        <div class="ctn-img">
+                            <img src="img/minecraftlogo.jpg" alt="">
+                        </div>
+                        <h2>Mis Contrucciones de Minecraft 👷</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>KylluaSama</li>
+                            <li>Minecraft</li>
+                            <li>Juegos</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="Akeno">
+
+                        <div class="ctn-img">
+                            <img src="img/8d20eec381a3608901e50748004825bf.jpg" alt="">
+                        </div>
+                        <h2>El Mundo de una chica Gamer(Un poco afeminado👩)🤵</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>Akeno</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="KylluaSama">
+
+                        <div class="ctn-img">
+                            <img src="img/소라사onTwitter.jpeg" alt="">
+                        </div>
+                        <h2>El Mundo de KylluaSama (Mi vida Personal)🤧</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>KylluaSama</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="Videos">
+
+                        <div class="ctn-img">
+                            <img src="img/ee5ad449258f07011f1dddfb07d597e6.jpg" alt="">
+                        </div>
+                        <h2>esto es en un futuro 😸</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>Videos</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+
+                    <div class="post" data-category="Diseño-web">
+
+                        <div class="ctn-img">
+                            <img src="img/8cbd50d98853f02309e36f77e9160eec.jpg" alt="">
+                        </div>
+                        <h2>Actualizaciones de la pagina</h2>
+                        <span>16 de marzo - 4:50 PM</span>
+                        <ul class="ctn-tag">
+                            <li>Diseño web</li>
+                        </ul>
+                        <a href="#"><button>Leer más</button></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-----Boton para ir hacia arriba------>
+
+            <div id="button-up">
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+
+            <!-----FOTTER----->
+            <div class="container-footer">
+
+                <footer>
+
+                    <div class="logo-footer">
+                        <img src="img/kylluaicon.png" alt="">
+                    </div>
+
+                    <div class="redes-footer">
+                        <a href="#"><i class="fa-brands fa-facebook-f icon-redes-footer"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord icon-redes-footer"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                    </div>
+
+                    <hr>
+
+                    <h4>æ 2022 KylluaSama - Todos los derechos reservados</h4>
+
+                </footer>
+
+            </div>
+		</div>
+		
+		<script src="js/Script.js"></script>
+
+	</body>
+</html>
